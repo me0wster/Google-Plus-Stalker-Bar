@@ -1,0 +1,11 @@
+{
+	"name": "Google Plus Stalker Bar",
+	"version": "1.0",
+	"description": "Make Google Plus Stalk you",
+	"content_scripts": [
+		{
+			"matches": ["https://plus.google.com/"],
+			"js": ["jquery.min.1.6.2.js", "gplusStalker.js"]
+		}
+	]
+}
